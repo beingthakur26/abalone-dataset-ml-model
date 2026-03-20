@@ -3,7 +3,9 @@ import { useState } from "react";
 // For local dev: Vite proxy routes /predict → http://localhost:5000/predict
 // For production: replace "/predict" with your full Render URL
 // e.g. "https://abalone-app-xyz.onrender.com/predict"
-const API_URL = "/predict";
+
+// After — paste YOUR actual Render URL
+const API_URL = "https://abalone-backend.onrender.com/predict";
 
 const styles = `
   @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Lato:wght@300;400;700&display=swap');
